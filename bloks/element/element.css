@@ -1,0 +1,14 @@
+.element {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px 17px;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 880px) {
+    .element {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,14 @@
+.line {
+    margin-top: 41px;
+    size: 1px;
+    opacity: 0.699999988079071;
+    color: #545454;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 880px) {
+    .line {
+        margin-top: 31.6px;
+    }
+}
