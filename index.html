@@ -1,87 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mesto</title>
-    <link href="./pages/index.css" rel="stylesheet"/>
-</head>
-<body class="page">
+    <link href="./pages/index.css" rel="stylesheet" />
+  </head>
+  <body class="page">
     <header class="header">
-        <img src="./images/logo.svg" alt="Место" class="logo">
-        <hr class="line">
+      <img src="./images/logo.svg" alt="Место" class="logo" />
     </header>
     <main>
-        <section class="profile">
-            <img src="./images/Jak-Iv.jpg" alt="Жак-Ив-Кусто" class="profile__avatar">
-            <div class="profile__info">
-                <h2 class="profile__title">Жак-Ив-Кусто
-                    <button class="profile__button profile__open-popup"></button>
-                </h2>
-                <p class="profile__subtitle">Исследователь океана</p>
-            </div>
-            
-            <button class="button"></button>
-        </section>
-        <section class="elements">
-            <ul class="element">
-                <li class="element__items">
-                    <img class="element__images" src="./images/Karachaevo.jpg" alt="Карачаевск">
-                    <div class="element__signature">
-                      <h3 class="element__title">Карачаевск</h3>
-                      <button class="element__button"></button>
-                    </div>
-                </li>
-                <li class="element__items">
-                    <img class="element__images" src="./images/Elbrus.jpg" alt="Гора Эльбрус">
-                    <div class="element__signature">
-                    <h3 class="element__title">Гора Эльбрус</h3>
-                    <button class="element__button"></button>
-                </div>
-                </li>
-                <li class="element__items">
-                    <img class="element__images" src="./images/Dombai.jpg" alt="Домбай">
-                    <div class="element__signature">
-                    <h3 class="element__title">Домбай</h3>
-                    <button class="element__button"></button>
-                </div>
-                </li>
-                <li class="element__items">
-                    <img class="element__images" src="./images/Elbrus.jpg" alt="Гора Эльбрус">
-                    <div class="element__signature">
-                    <h3 class="element__title">Гора Эльбрус</h3>
-                    <button class="element__button"></button>
-                </div>
-                </li>
-                <li class="element__items">
-                    <img class="element__images" src="./images/Dombai.jpg" alt="Домбай">
-                    <div class="element__signature">
-                    <h3 class="element__title">Домбай</h3>
-                    <button class="element__button"></button>
-                </div>
-                </li>
-                <li class="element__items">
-                    <img class="element__images" src="./images/Karachaevo.jpg" alt="Карачаевск">
-                    <div class="element__signature">
-                    <h3 class="element__title">Карачаево-Черкеcсия</h3>
-                    <button class="element__button"></button>
-                </div>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <section class="popup ">
-        <div class="popup__container">
-            <img src="./images/Close Icon.svg" alt="закрыть" class="popup__close">
-            <h3 class="popup__title">Редактировать профиль</h3>
-                <input name="Name" class="popup__input" type="text" value="Жак-Ив-Кусто">
-                <input name="job" class="popup__input" type="text" value="Исследователь океана">
-            <button type="submit" class="popup__button">Сохранить</button>
+      <section class="profile">
+        <img
+          src="./images/Jak-Iv.jpg"
+          alt="Жак-Ив-Кусто"
+          class="profile__avatar"
+        />
+        <div class="profile__info">
+          <div class="profile__info-title">
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button class="profile__button" type="button"></button>
+          </div>
+          <p class="profile__subtitle">Исследователь океана</p>
         </div>
+
+        <button class="profile__button-add" type="button"></button>
+      </section>
+      <section class="elements">
+        <ul class="elements__element">
+          <li class="element__items">
+            <img
+              class="element__images"
+              src="./images/Karachaevo.jpg"
+              alt="Карачаевск"
+            />
+            <div class="element__signature">
+              <h2 class="element__title">Карачаевск</h2>
+              <button class="element__button" type="button"></button>
+            </div>
+          </li>
+          <li class="element__items">
+            <img
+              class="element__images"
+              src="./images/Elbrus.jpg"
+              alt="Гора Эльбрус"
+            />
+            <div class="element__signature">
+              <h2 class="element__title">Гора Эльбрус</h2>
+              <button class="element__button" type="button"></button>
+            </div>
+          </li>
+          <li class="element__items">
+            <img
+              class="element__images"
+              src="./images/Dombai.jpg"
+              alt="Домбай"
+            />
+            <div class="element__signature">
+              <h2 class="element__title">Домбай</h2>
+              <button class="element__button" type="button"></button>
+            </div>
+          </li>
+          <li class="element__items">
+            <img
+              class="element__images"
+              src="./images/Elbrus.jpg"
+              alt="Гора Эльбрус"
+            />
+            <div class="element__signature">
+              <h2 class="element__title">Гора Эльбрус</h2>
+              <button class="element__button" type="button"></button>
+            </div>
+          </li>
+          <li class="element__items">
+            <img
+              class="element__images"
+              src="./images/Dombai.jpg"
+              alt="Домбай"
+            />
+            <div class="element__signature">
+              <h2 class="element__title">Домбай</h2>
+              <button class="element__button" type="button"></button>
+            </div>
+          </li>
+          <li class="element__items">
+            <img
+              class="element__images"
+              src="./images/Karachaevo.jpg"
+              alt="Карачаевск"
+            />
+            <div class="element__signature">
+              <h2 class="element__title">Карачаево-Черкеcсия</h2>
+              <button class="element__button" type="button"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <section class="popup">
+      <div class="popup__container">
+        <button type="button" class="popup__close"></button>
+        <h3 class="popup__title">Редактировать профиль</h3>
+        <form class="popup__form" name="popupName">
+          <input
+            name="Name"
+            class="popup__name"
+            type="text"
+            value="Жак-Ив-Кусто"
+          />
+          <input
+            name="Job"
+            class="popup__job"
+            type="text"
+            value="Исследователь океана"
+          />
+          <button type="submit" class="popup__button">Сохранить</button>
+        </form>
+      </div>
     </section>
     <footer class="footer">
-        <p class="footer__author">&copy; 2023. Рустам Рустамов</p>
+      <p class="footer__author">&copy; 2023. Рустам Рустамов</p>
     </footer>
-</body>
-<script type="text/javascript" src="./index.js"></script>
-</html>     
+  </body>
+  <script type="text/javascript" src="./scripts/index.js"></script>
+</html>
