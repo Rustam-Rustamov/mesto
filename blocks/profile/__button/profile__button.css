@@ -3,7 +3,7 @@
     margin-right: auto;
     border: 1px solid #FFF;
     background-image: url(../../../images/Vector-карандаш.svg);
-    background-size: 7.5px 7.5px;
+    background-size: 10px 10px;
     background-position: center;
     background-color: transparent;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
         margin-left: 10px;
         width: 18px;
         height: 18px;
-        background-size: 5.25px 5.25px;
+        background-size: 7.5px 7.5px;
     }
 }
 
