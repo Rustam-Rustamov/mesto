@@ -8,9 +8,3 @@
     margin-right: auto;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
-
-@media screen and (max-width: 1024px) {
-    .page {
-        max-width: 100%;
-    }
-}
