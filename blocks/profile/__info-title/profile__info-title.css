@@ -1,6 +1,18 @@
 .profile__info-title {
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    text-align: start;
     margin: 0;
     padding: 0;
+}
+@media screen and (max-width: 880px) {
+    .profile__info-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile__info-title {
+        max-width: 189px;
+    }
 }
