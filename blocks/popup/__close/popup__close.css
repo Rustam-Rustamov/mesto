@@ -10,7 +10,7 @@
     background-size: 32px 32px;
     text-align: center;
     top: -40px;
-    left: 438px;
+    right: -40px;
     border: none;
     padding: 0;
 }
@@ -21,7 +21,6 @@
         width: 20px;
         height: 20px;
         top: -33px;
-        left: 263px;
         right: 0;
     }
 }

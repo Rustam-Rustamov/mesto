@@ -12,19 +12,19 @@ const closePopup = function () {
     popup.classList.remove('popup_opened');
 }
 
-function handleFormSubmit (evt) {
-    evt.preventDefault(); 
-    let nameValue = nameInput.value;
-    let jobValue = jobInput.value;
-    nameInput.textContent = nameValue;
-    jobInput.textContent = jobValue;
-    closePopup ();
-}
-
 const popupAdd = function () {
     popup.classList.add('popup_opened');
     nameInput.value = cardName.textContent;
     jobInput.value = cardJob.textContent;
+}
+
+function handleFormSubmit (evt) {
+    evt.preventDefault(); 
+    let nameValue = nameInput.value;
+    let jobValue = jobInput.value;
+    cardName.textContent = nameValue;
+    cardJob.textContent = jobValue;
+    closePopup ();
 }
 
 
