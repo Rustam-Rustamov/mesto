@@ -18,5 +18,6 @@
         text-align: center;
         font-size: 27px;
         line-height: normal;
+        max-width: 189px;
     }
 }
